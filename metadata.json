@@ -1,0 +1,5 @@
+{
+  "name": "Meeting Room AI Assistant",
+  "description": "An AI-powered chatbot to help users book meeting rooms. Users can ask to book a room with specific requirements (number of people, time), and the AI assistant will process the request and suggest available options.",
+  "requestFramePermissions": []
+}
