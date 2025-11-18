@@ -14,7 +14,10 @@ View your app in AI Studio: https://ai.studio/apps/drive/1dQEPCWbm79LXQgmmOka2uW
 
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+ -npm install
+ -npm install @google/genai
+ -npm install -D @types/node ts-node typescript
+3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+4. Run the app:
+ -node --loader ts-node/esm services/main.ts
+   
